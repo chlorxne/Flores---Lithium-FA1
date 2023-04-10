@@ -23,7 +23,7 @@ var byr = prompt(qbyr)
 var n_age = (2023 - byr);
 
 // document.getelementbyid doesnt work. but heres the code i tried:
-// document.getElementbyId("phrase") = ("Hello, " + name + " " + lname "! How does it feel to be " + n_age + " years old?")
+// document.getElementbyId("phrase").textContent = ("Hello, " + name + " " + lname "! How does it feel to be " + n_age + " years old?")
 
 //3
 
